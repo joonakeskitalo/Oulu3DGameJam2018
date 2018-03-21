@@ -3,11 +3,32 @@
 
 - [Oulu 3D Sensor Game Jam](https://sensorgamejam.com)
 - [Sensor sample from Rohm](https://bitbucket.org/Kionix-Rohm/sensor-game-jam-18/src)
-
-## Project
-
-
 - [Github repository](https://github.com/joonakeskitalo/Oulu3DGameJam2018)
+
+
+**Members**
+
+- Joona Keskitalo
+- Mariia Bogdanova
+- Kalle Sirviö
+- Toni Närhi
+- Kimmo Raappana
+- Lasse Leinonen
+
+**Unity version**
+
+- [Unity 5.6.5 32bit](https://download.unity3d.com/download_unity/2cac56bf7bb6/Windows32EditorInstaller/UnitySetup32-5.6.5f1.exe) F1 for it to work with the Rohm sensors.
+
+
+
+
+***
+
+## Game Idea
+
+
+
+
 
 
 ***
