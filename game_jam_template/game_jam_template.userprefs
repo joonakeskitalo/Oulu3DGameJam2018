@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SensorDemo\Scripts\track_game.cs">
+    <Files>
+      <File FileName="Assets\SensorDemo\Scripts\track_game.cs" Line="77" Column="35" />
+      <File FileName="Assets\SensorDemo\Scripts\fusionrotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\SensorDemo\Scripts\moveball.cs" Line="1" Column="1" />
+      <File FileName="Assets\SensorDemo\Scripts\socketScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\SensorDemo\Scripts\TCPConnection.cs" Line="1" Column="1" />
+      <File FileName="Assets\SensorDemo\Scripts\cubemahoney.cs" Line="1" Column="1" />
+      <File FileName="Assets\SensorDemo\Scripts\fusion.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
