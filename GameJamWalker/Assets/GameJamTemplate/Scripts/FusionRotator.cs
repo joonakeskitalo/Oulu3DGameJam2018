@@ -11,6 +11,7 @@ public class FusionRotator : MonoBehaviour {
     private ConnectionScript conn;
     public bool lockPosition;
     string parentGameObjectName = "";
+    private float rotationSpeedMax = 0.5F;   // Maximum rotation speed
 
     // Use this for initialization
     void Start () {
@@ -26,19 +27,11 @@ public class FusionRotator : MonoBehaviour {
         {
             myfusion = conn.myfusion;
         }
-        else if (parentGameObjectName == "kionix_iot_2")
+        else if (parentGameObjectName == "drunk")
         {
             myfusion = conn.myfusion2;
         }
-        else if (parentGameObjectName == "kionix_iot_3")
-        {
-            myfusion = conn.myfusion3;
-        }
-        else if (parentGameObjectName == "kionix_iot_4")
-        {
-            myfusion = conn.myfusion4;
-        }
-
+        
         //myfusion = root.GetComponent<Fusion>();
 
         myq = new Quaternion();
@@ -52,7 +45,7 @@ public class FusionRotator : MonoBehaviour {
 
         try
         {
-            rb.rotation = myq;
+            rb.rotation = Quaternion.RotateTowards(rb.rotation, myq, rotationSpeedMax);
         }
         catch (Exception err)
         {
