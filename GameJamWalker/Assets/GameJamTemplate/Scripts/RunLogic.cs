@@ -14,7 +14,7 @@ public class RunLogic : MonoBehaviour {
     public GameState state = GameState.GameIdle;
     private GUIStyle style;
     private FusionRotator userFusionRotator;
-    private FusionRotator userFusionRotator2;
+    //private FusionRotator userFusionRotator2;
 
     Text flashingText;
     string blinkingText = "";
@@ -27,8 +27,8 @@ public class RunLogic : MonoBehaviour {
         flashingText = GameObject.Find("Canvas/Text").GetComponent<Text>();
 
         conn = GameObject.Find("sensorfusion").GetComponent<ConnectionScript>();
-        userFusionRotator = GameObject.Find("kionix_iot").GetComponent<FusionRotator>();
-        userFusionRotator2 = GameObject.Find("kionix_iot_2").GetComponent<FusionRotator>();
+        userFusionRotator = GameObject.Find("glass_mug").GetComponent<FusionRotator>();
+        //userFusionRotator2 = GameObject.Find("kionix_iot_2").GetComponent<FusionRotator>();
         //print("userCubeFusionRotator " + userFusionRotator);
 
         int w = Screen.width, h = Screen.height;
@@ -109,7 +109,7 @@ public class RunLogic : MonoBehaviour {
                 gameStarted = true;
 
                 userFusionRotator.lockPosition = true;
-                userFusionRotator2.lockPosition = true;
+                //userFusionRotator2.lockPosition = true;
             }
             else
             {

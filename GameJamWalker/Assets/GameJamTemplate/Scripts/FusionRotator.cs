@@ -23,13 +23,9 @@ public class FusionRotator : MonoBehaviour {
         // attach rotator to correct sensor fusion instance
         parentGameObjectName = gameObject.name;
 
-        if (parentGameObjectName == "kionix_iot")
+        if (parentGameObjectName == "glass_mug")
         {
             myfusion = conn.myfusion;
-        }
-        else if (parentGameObjectName == "drunk")
-        {
-            myfusion = conn.myfusion2;
         }
         
         //myfusion = root.GetComponent<Fusion>();
